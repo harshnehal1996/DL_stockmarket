@@ -10,7 +10,7 @@ Current Progress :
 
 Challenges : 
 * only price action doesn't give a whole lot of picture , may require live sentiment analysis to further improve the accuracy
-* The training is lot slower due to large I/O overhead. Can we train data in bigger batches?
+* The training is lot slower due to large I/O overhead. Can we train data in bigger batches? --- Done
 * Tweaking required in the main model
 * Require better optimization technique for better convegence since this is very high entropy data. Is this a random walk?
-* I am a lazy ass
+* Apply and compare with Policy Gradient Method
